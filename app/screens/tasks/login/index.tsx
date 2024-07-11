@@ -11,8 +11,9 @@ export default function login() {
   return (
     <View className="bg-white h-full w-full px-5">
       <Stack.Screen
-        options={{ title: "settings", headerTitleAlign: "center" }}
+        options={{ title: "Settings", headerTitleAlign: "center" }}
       />
+
       <View className="flex-row">
         <View>
           <Camera color="black" size={48} />
@@ -24,7 +25,8 @@ export default function login() {
           </Text>
         </View>
         <View>
-          <Text>This allows us to send you promos, deals among things</Text>
+          <Text>This allows us to send you promos,
+            deals among things</Text>
         </View>
         <View>
           <Camera color="black" size={48} />
