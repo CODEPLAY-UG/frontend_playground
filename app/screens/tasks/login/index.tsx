@@ -1,9 +1,14 @@
 import { View, Text, TextInput, Pressable, Image } from "react-native";
 import React, { useState } from "react";
 import { Link, router, Stack, Tabs } from "expo-router";
-import { ArrowLeft } from "lucide-react-native";
-import { Colors } from "react-native/Libraries/NewAppScreen";
-import { Camera } from "lucide-react-native";
+import {
+  BellIcon,
+  ChevronRight,
+  Lock,
+  Phone,
+  SunMoon,
+} from "lucide-react-native";
+import { Switch } from "@fluentui/react-components";
 
 export default function login() {
   function handlelogih(text: string): void {}
@@ -13,81 +18,71 @@ export default function login() {
       <Stack.Screen
         options={{ title: "Settings", headerTitleAlign: "center" }}
       />
-
-      <View className="flex-row">
-        <View>
-          <Camera color="black" size={48} />
-          <Text>icon</Text>
+      <View className=" gap-y-5 mt-[12px]">
+        <View className="flex-row justify-between items-center">
+          <View className="">
+            <BellIcon color="#808080" size={20} />
+          </View>
+          <View className="">
+            <Text className="text-[#242424] text-[17px] font-normal leading-[22px] tracking-tighter[-0.43]">
+              Notifications
+            </Text>
+            <Text className="text-[#616161] text-[13px] font-normal leading-[18px] tracking-tighter[-0.08]">
+              This allows us to send you promos, {"\n"} deals among things
+            </Text>
+          </View>
+          <View className="">
+            {/* <Switch /> */}
+            <BellIcon color="#808080" size={20} />
+          </View>
         </View>
-        <View>
-          <Text className="font-normal text-base[17px] leading-5 tracking-tighter[0-43em]">
-            Notifications
-          </Text>
+        <View className="flex-row justify-between items-center">
+          <View className="">
+            <Lock color="#808080" size={20} />
+          </View>
+          <View className="">
+            <Text className=" text-[#242424] text-[17px] font-normal leading-[22px] tracking-tighter[-0.43]">
+              Privacy
+            </Text>
+            <Text className=" text-[#616161] text-[13px] font-normal leading-[18px] tracking-tighter[-0.08]">
+              Manage the data you share with us
+            </Text>
+          </View>
+          <View className="">
+            <ChevronRight color="#808080" size={20} />
+          </View>
         </View>
-        <View>
-          <Text>This allows us to send you promos,
-            deals among things</Text>
+        <View className="flex-row justify-between items-center  ">
+          <View className="">
+            <SunMoon color="#808080" size={20} />
+          </View>
+          <View className="">
+            <Text className="text-[#242424] text-[17px] font-normal leading-[22px] tracking-tighter[-0.43]">
+              Appearance
+            </Text>
+            <Text className="text-[#616161] text-[13px] font-normal leading-[18px] tracking-tighter[-0.08]">
+              Select how you want your app to look like
+            </Text>
+          </View>
+          <View className="">
+            <ChevronRight color="#808080" size={20} />
+          </View>
         </View>
-        <View>
-          <Camera color="black" size={48} />
-          <Text>sweetch</Text>
-        </View>
-      </View>
-
-      <View className="flex-row">
-        <View>
-          <Camera color="black" size={48} />
-          <Text>Rock</Text>
-        </View>
-        <View>
-          <Text className="font-normal text-base[17px] leading-5 tracking-tighter[0-43em]">
-            Privacy
-          </Text>
-        </View>
-        <View>
-          <Text>Manage the data you share with us</Text>
-        </View>
-        <View>
-          <Camera color="black" size={48} />
-          <Text>Arrow</Text>
-        </View>
-      </View>
-
-      <View className="flex-row">
-        <View>
-          <Camera color="black" size={48} />
-          <Text>icon</Text>
-        </View>
-        <View>
-          <Text className="font-normal text-base[17px] leading-5 tracking-tighter[0-43em]">
-            Appearance
-          </Text>
-        </View>
-        <View>
-          <Text>Select how you want your app to look like</Text>
-        </View>
-        <View>
-          <Camera color="black" size={48} />
-          <Text>sweetch</Text>
-        </View>
-      </View>
-
-      <View className="flex-row">
-        <View>
-          <Camera color="black" size={48} />
-          <Text>call</Text>
-        </View>
-        <View>
-          <Text className="font-normal text-base[17px] leading-5 tracking-tighter[0-43em]">
-            Communication
-          </Text>
-        </View>
-        <View>
-          <Text>Choose your preferred contact methods</Text>
-        </View>
-        <View>
-          <Camera color="black" size={48} />
-          <Text>sweetch</Text>
+        <View className="flex-row justify-between items-center  ">
+          <View className="">
+            <Phone color="#808080" size={20} />
+          </View>
+          <View className="">
+            <Text className="text-[#242424] text-[17px] font-normal leading-[22px] tracking-tighter[-0.43]">
+              Communication
+            </Text>
+            <Text className=" text-[#616161] text-[13px] font-normal leading-[18px] tracking-tighter[-0.08]">
+              Choose your preferred contact methods
+            </Text>
+          </View>
+          <View className="">
+            <ChevronRight color="#808080" size={20} />
+          </View>
         </View>
       </View>
     </View>
