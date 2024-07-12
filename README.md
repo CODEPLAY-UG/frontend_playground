@@ -48,3 +48,18 @@ Join our community of developers creating universal apps.
 
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+
+## Conventional Commits provide a standardized way to structure commit messages in Git repositories. Here are some common commit types and their meanings:
+
+1. build: Changes that affect the build system or external dependencies (e.g., gulp, npm).
+2. ci: Changes to CI (Continuous Integration) configuration files and scripts (e.g., Travis, CircleCI).
+3. chore: Changes that don’t impact source code or tests (e.g., build process, auxiliary tools, libraries).
+4. docs: Documentation-only changes.
+5. feat: Introduces a new feature to the codebase.
+6. fix: Patches a bug in the codebase.
+7. perf: Code changes that improve performance.
+8. style: Changes related to code style (e.g., formatting, indentation).
+9. refactor: Refactoring existing code without adding features or fixing bugs.
+10. test: Adds or modifies tests.
+
+Remember that these conventions help maintain consistency and clarity in commit messages, making it easier to track changes in your codebase. 😊

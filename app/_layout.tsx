@@ -8,6 +8,7 @@ import { Stack } from "expo-router";
 import * as SplashScreen from "expo-splash-screen";
 import { useEffect } from "react";
 import "react-native-reanimated";
+import { PaperProvider } from "react-native-paper";
 
 import { store } from "./store";
 import { Provider } from "react-redux";
@@ -42,15 +43,17 @@ export default function RootLayout() {
   return (
     <Provider store={store}>
       <ThemeProvider value={colorScheme === "dark" ? DarkTheme : DefaultTheme}>
-        <Stack>
-          <Stack.Screen name="index" options={{}} />
-          <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
-          <Stack.Screen
-            name="screens/signup"
-            options={{ headerShown: false }}
-          />
-          <Stack.Screen name="+not-found" />
-        </Stack>
+        <PaperProvider>
+          <Stack>
+            <Stack.Screen name="index" options={{}} />
+            <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+            <Stack.Screen
+              name="screens/signup"
+              options={{ headerShown: false }}
+            />
+            <Stack.Screen name="+not-found" />
+          </Stack>
+        </PaperProvider>
       </ThemeProvider>
     </Provider>
   );
