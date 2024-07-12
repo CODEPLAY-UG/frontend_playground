@@ -8,7 +8,7 @@ import {
   GestureResponderEvent,
 } from "react-native";
 import React, { useState } from "react";
-import { Link, router, Stack, Tabs } from "expo-router";
+import { Link, router, Stack } from "expo-router";
 
 import {
   ArrowLeft,
@@ -20,8 +20,8 @@ import {
 } from "lucide-react-native";
 import { Switch } from "@fluentui/react-components";
 
-export default function login() {
-  function handleLogin(text: string): void {}
+export default function security() {
+  function handleSecurity(text: string): void {}
   
 
   return (
