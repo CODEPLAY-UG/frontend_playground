@@ -1,7 +1,9 @@
 import { View, Text, TextInput, Pressable, Image } from "react-native";
 import React, { useState } from "react";
 import { Link, router, Stack, Tabs } from "expo-router";
+
 import {
+  ArrowLeft,
   BellIcon,
   ChevronRight,
   Lock,
@@ -83,6 +85,32 @@ export default function login() {
           <View className="">
             <ChevronRight color="#808080" size={20} />
           </View>
+        </View>
+      </View>
+
+      <View className="flex-row justify-between items-center mt-auto">
+        <View className="mt-4 justify-center items-center space-y-1">
+          <Image
+            className="w-[22.5px] h-[21px]"
+            source={require("@assets/images/home.png")}
+          />
+          <Text>Home</Text>
+        </View>
+
+        <View className="mt-4 justify-center items-center space-y-1">
+          <Image
+            className="w-[22.5px] h-[21px]"
+            source={require("@assets/images/activity.png")}
+          />
+          <Text>Activity</Text>
+        </View>
+
+        <View className="mt-4 justify-center items-center space-y-1">
+          <Image
+            className="w-[22.5px] h-[21px]"
+            source={require("@assets/images/profile.png")}
+          />
+          <Text>Profile</Text>
         </View>
       </View>
     </View>
