@@ -61,5 +61,6 @@ Join our community of developers creating universal apps.
 8. style: Changes related to code style (e.g., formatting, indentation).
 9. refactor: Refactoring existing code without adding features or fixing bugs.
 10. test: Adds or modifies tests.
+11. bump: Refers to incrementing the version number to a new, unique value. When you make changes that warrant a new version (e.g., adding features, fixing bugs, or updating dependencies), you “bump” the version to indicate the change
 
 Remember that these conventions help maintain consistency and clarity in commit messages, making it easier to track changes in your codebase. 😊
