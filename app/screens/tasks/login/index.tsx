@@ -11,10 +11,11 @@ import {
   SunMoon,
 } from "lucide-react-native";
 import { Button } from "react-native-paper";
-// import { Switch } from "@fluentui/react-components";
-
+import { Switch } from "react-native-paper";
 export default function login() {
-  function handlelogih(text: string): void {}
+  const [isSwitchOn, setIsSwitchOn] = React.useState(false);
+
+  const onToggleSwitch = () => setIsSwitchOn(!isSwitchOn);
 
   return (
     <View className="bg-white h-full w-full px-5">
@@ -37,7 +38,7 @@ export default function login() {
 
           <View className="">
             {/* <Switch /> */}
-            <BellIcon color="#808080" size={20} />
+            <Switch value={isSwitchOn} onValueChange={onToggleSwitch} />
           </View>
         </View>
         <View className="flex-row justify-between items-center">
@@ -93,11 +94,11 @@ export default function login() {
         </View>
       </View>
 
-      <View className="items-center justify-center">
+      <View className="items-center justify-center py-8">
         <Button
-          rippleColor="#FF000020"
-          className=""
-          icon="camera"
+          // rippleColor="#FF000020"
+          className="w-full"
+          icon="lock"
           mode="contained"
           onPress={() => {}}
         >
