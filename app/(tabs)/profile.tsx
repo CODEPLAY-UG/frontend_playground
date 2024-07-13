@@ -20,10 +20,10 @@ export default function Profile() {
         <Pressable>
           <View className="flex flex-row  items-center p-4 gap-x-[210px]">
             <View>
-              <Text className="text-[17px] font-normal leading-[22px] text-[#242424] font-[400]">
+              <Text className="text-[17px] leading-[22px] text-[#242424] font-[400]">
                 Name
               </Text>
-              <Text className="text-[13px] font-normal leading-[18px] text-[#616161] font-[400]">
+              <Text className="text-[13px] leading-[18px] text-[#616161] font-[400]">
                 Phone number/email
               </Text>
             </View>
@@ -36,7 +36,7 @@ export default function Profile() {
         <View className="flex flex-row gap-x-[2px]  ">
           <View className="flex flex-row gap-x-[12px]  ">
             <Image source={require("../../assets/images/settings.png")} />
-            <Text className=" w-[280px] text-[17px] font-normal leading-[22px] text-[#242424] font-[400] p-[1px] ">
+            <Text className=" w-[280px] text-[17px] leading-[22px] text-[#242424] font-[400] p-[1px] ">
               Settings
             </Text>
           </View>
@@ -45,7 +45,7 @@ export default function Profile() {
         <View className="flex flex-row gap-x-[2px] ">
           <View className="flex flex-row gap-x-[12px]">
             <Image source={require("../../assets/images/security.png")} />
-            <Text className="w-[280px] text-[17px] font-normal leading-[22px] text-[#242424] font-[400] p-[1px] ">
+            <Text className="w-[280px] text-[17px] leading-[22px] text-[#242424] font-[400] p-[1px] ">
               Login & security
             </Text>
           </View>
@@ -54,7 +54,7 @@ export default function Profile() {
         <View className="flex flex-row gap-x-[2px] ">
           <View className="flex flex-row gap-x-[12px]">
             <Image source={require("../../assets/images/help.png")} />
-            <Text className="w-[280px]  text-[17px] font-normal leading-[22px] text-[#242424] font-[400] p-[1px] ">
+            <Text className="w-[280px]  text-[17px] leading-[22px] text-[#242424] font-[400] p-[1px] ">
               Help
             </Text>
           </View>
@@ -63,7 +63,7 @@ export default function Profile() {
         <View className="flex flex-row gap-x-[2px]">
           <View className="flex flex-row gap-x-[12px]">
             <Image source={require("../../assets/images/feedback.png")} />
-            <Text className="w-[280px] text-[17px] font-normal leading-[22px] text-[#242424] font-[400] p-[1px] ">
+            <Text className="w-[280px] text-[17px] leading-[22px] text-[#242424] font-[400] p-[1px] ">
               Give us feedback
             </Text>
           </View>
@@ -72,7 +72,7 @@ export default function Profile() {
         <View className="flex flex-row gap-x-[2px] ">
           <View className="flex flex-row gap-x-[12px]">
             <Image source={require("../../assets/images/legal.png")} />
-            <Text className="w-[280px] text-[17px] font-normal leading-[22px] text-[#242424] font-[400] p-[1px] ">
+            <Text className="w-[280px] text-[17px] leading-[22px] text-[#242424] font-[400] p-[1px] ">
               Legal
             </Text>
           </View>
@@ -81,7 +81,7 @@ export default function Profile() {
         <View className="flex flex-row gap-x-[2px] ">
           <View className="flex flex-row gap-x-[12px]">
             <Image source={require("../../assets/images/info.png")} />
-            <Text className="w-[280px] text-[17px] font-normal leading-[22px] text-[#242424] font-[400] p-[1px]">
+            <Text className="w-[280px] text-[17px] leading-[22px] text-[#242424] font-[400] p-[1px]">
               About
             </Text>
           </View>
