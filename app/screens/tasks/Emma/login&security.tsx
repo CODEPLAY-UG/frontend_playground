@@ -17,7 +17,7 @@ export default function Acounts() {
 
       <View className=" space-y-5 mt-[12px]">
         <View className="flex-row justify-between items-center">
-          <View className="mx-4">
+          <View className="">
             <Text className="text-[#242424] text-[17px] font-semibold leading-[22px] tracking-tighter[-0.43]">
               Connected accounts
             </Text>
