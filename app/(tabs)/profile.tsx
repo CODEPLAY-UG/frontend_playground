@@ -5,7 +5,7 @@ import { Stack, router } from "expo-router";
 
 export default function Profile() {
   return (
-    <SafeAreaView className=" bg-white h-full w-full px-6 flex-1 mt-[70px]">
+    <SafeAreaView className=" bg-white h-full w-full px-6 flex-1">
       {/* i wasnt able to give it a stack.screen with the profile header so im using mt-70px till im able to do it*/}
       <Stack.Screen
         options={{
