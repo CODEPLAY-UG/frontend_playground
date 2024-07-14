@@ -7,7 +7,7 @@ export default function TaskIndex() {
     <View className="h-full justify-center gap-5 items-center">
       <Stack.Screen options={{ title: "Tasks", headerTitleAlign: "center" }} />
       <TouchableOpacity className="">
-        <Link href="./login" className="mt-5 mb-2" asChild>
+        <Link href="./Emma" className="mt-5 mb-2" asChild>
           <Pressable>
             <Text className="text-[#e1475b] text-lg">Emma</Text>
           </Pressable>
