@@ -66,13 +66,13 @@ export default function OnboardingScreen() {
   );
 
   return (
-    <GestureHandlerRootView style={{ flex: 1 }}>
+    <GestureHandlerRootView className="bg-white h-full px-3 ">
       <View className="">
         <Stack.Screen options={{ headerTitle: "" }} />
 
         <GestureDetector gesture={swipes}>
           <View
-            className="items-center bg-white h-full px-3 "
+            className="items-center "
             key={screenIndex}
           >
             <Animated.View className="" entering={FadeIn} exiting={FadeOut}>
