@@ -104,7 +104,6 @@ export default function settings() {
             <ChevronRight color="#808080" size={20} />
           </View>
         </View>
-        
       </View>
 
       <View className="justify-center gap-5 items-center mt-40 mb-2">
