@@ -3,12 +3,9 @@ import React, { useState } from "react";
 import { Link, Redirect, Stack, router } from "expo-router";
 import { SafeAreaView } from "react-native-safe-area-context";
 
-
 export default function RootIndex() {
   const handleLocation = () => {
     router.push("/screens/tasks");
-    
-
   };
 
   return (
@@ -26,7 +23,7 @@ export default function RootIndex() {
         </Pressable>
       </Link>
 
-      <Link href="/screens/login" className="mt-5 mb-2" asChild>
+      <Link href="/screens/login/loginindex" className="mt-5 mb-2" asChild>
         <Pressable className="bg-[#0011ff]  py-2 px-4 rounded">
           <Text className="text-[#cd326b] text-lg">Go to Login</Text>
         </Pressable>

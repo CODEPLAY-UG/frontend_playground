@@ -46,13 +46,13 @@ export default function login() {
         <Text className="text-[12px] font-normal leading-[16px] py-[16px]">Code sent via SMS to (number)</Text>
 
         <View className="">
-          <Link href="./loginindex" className="mt-5 mb-2" asChild>
+          
             <Pressable className="bg-[#636363] mt-[56px] w-full h-[52px] items-center justify-center rounded-[99px]">
-              <TouchableOpacity onPress={() => router.push("./loginindex")} className="">
+              
                 <Text className="text-white text-[17px] font-[600] leading-[22px] tracking-[-0.43px]">Continue</Text>
-              </TouchableOpacity>
+              
             </Pressable>
-          </Link>
+          
         </View>
 
         <View className="items-center justify-center">
