@@ -20,7 +20,7 @@ export default function Getting() {
 
         <View className="flex-row justify-between items-center ">
           <View className="mx-4">
-            <Text className="text-[#242424] text-[17px] font-semi-bold leading-[22px] tracking-tighter[-0.43]">Welcome to SwiftRide!</Text>
+            <Text className="text-[#242424] text-[17px] font-semibold leading-[22px] tracking-tighter[-0.43]">Welcome to SwiftRide!</Text>
             <View className="mt-2">
               <Text className="text-[#616161] text-[13px] font-normal leading-[18px] tracking-tighter[-0.08]">Your journey with SwiftRide begins here. We're excited to have you join our community. Let's explore how SwiftRide makes your ride-hailing experience seamless, efficient, and enjoyable.</Text>
             </View>
@@ -29,7 +29,7 @@ export default function Getting() {
 
         <View className="flex-row justify-between items-center mt-5">
           <View className="px-4">
-            <Text className="text-[#242424] text-[17px] font-semi-bold leading-[22px] tracking-tighter[-0.43]">Discover the SwiftRide Community</Text>
+            <Text className="text-[#242424] text-[17px] font-semibold leading-[22px] tracking-[-0.43]">Discover the SwiftRide Community</Text>
             <View className=" mt-2">
               <View className="flex-row pr-4 pb-6">
                 <View className="">
@@ -50,7 +50,7 @@ export default function Getting() {
 
         <View className="flex-row justify-between items-center mt-5">
           <View className="px-4">
-            <Text className="text-[#242424] text-[17px] font-semi-bold leading-[22px] tracking-tighter[-0.43]">How It Works</Text>
+            <Text className="text-[#242424] text-[17px] font-semibold leading-[22px] tracking-tighter[-0.43]">How It Works</Text>
             <View className="mt-2">
               <View className="flex-row pr-4 pb-6">
                 <View className="">
