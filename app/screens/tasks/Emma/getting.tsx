@@ -13,12 +13,12 @@ export default function Getting() {
       <Stack.Screen options={{ title: "Getting started with SwiftRide", headerTitleAlign: "center" }} />
       <View className="">
         <View className="">
-          <View className="justify-between py-5 items-center">
+          <View className="justify-between py-1 items-center">
             <Image className="h-[180px] w-[100%] rounded-[16px]" source={require(".../../../assets/images/rider.png")} />
           </View>
         </View>
 
-        <View className="flex-row justify-between items-center ">
+        <View className="flex-row justify-between items-center py-3">
           <View className="mx-4">
             <Text className="text-[#242424] text-[17px] font-semibold leading-[22px] tracking-tighter[-0.43]">Welcome to SwiftRide!</Text>
             <View className="mt-2">

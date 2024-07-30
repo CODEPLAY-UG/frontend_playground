@@ -32,6 +32,7 @@ export default function Helpcentre() {
             </View>
           </View>
         </TouchableOpacity>
+        <TouchableOpacity onPress={() => router.push("./paying")} className="">
         <View className="flex-row justify-between items-center ">
           <View className="flex-row items-center">
             <WalletIcon color="#808080" size={24} />
@@ -45,7 +46,7 @@ export default function Helpcentre() {
             <ChevronRight color="#808080" size={20} />
           </View>
         </View>
-
+        </TouchableOpacity>
         <View>
           <CustomSwitch isEnabled={contacts} toggleSwitch={setContacts} />
         </View>
