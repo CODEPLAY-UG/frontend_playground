@@ -16,6 +16,8 @@ export default function Privacy() {
     <View className="bg-white h-full w-full px-5">
       <Stack.Screen options={{ title: "Privacy centre", headerTitleAlign: "center" }} />
       <View className="space-y-8 mt-[12px]">
+
+      <TouchableOpacity onPress={() => router.push("./datatracking")} className="">
         <View className="flex-row justify-between items-center">
           <View className="flex-row items-center">
             <ShapesIcon color="#808080" size={24} />
@@ -28,6 +30,8 @@ export default function Privacy() {
             <ChevronRight color="#808080" size={20} />
           </View>
         </View>
+        </TouchableOpacity>
+
 
         <View className="flex-row justify-between items-center ">
           <View className="flex-row items-center">
